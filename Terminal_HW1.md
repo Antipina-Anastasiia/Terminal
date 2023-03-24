@@ -29,13 +29,13 @@
 
  > Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
  
-#!/bin/bash
-cd Terminal_hw1
-mkdir dir{4..6} 
-cd dir4
-touch file{3,4}.json file{6..8}.txt
-mkdir poddir{4..6}
-ls
-cp file3.json file7.txt ../dir5
-echo "script is work"
+    #!/bin/bash
+    cd Terminal_hw1
+    mkdir dir{4..6} 
+    cd dir4
+    touch file{3,4}.json file{6..8}.txt
+    mkdir poddir{4..6}
+    ls
+    cp file3.json file7.txt ../dir5
+    echo "script is work"
 
