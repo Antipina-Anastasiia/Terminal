@@ -10,21 +10,21 @@
 | 3. Создать папку inner_dir_1 | `mkdir` inner_dir_1 |
 | 4. Посмотреть где ты находишься | `pwd` |
 | 5. Находясь в папке dir_1 создать пустой текстовый файл tf_1.txt | `touch` tf_1.txt |
-| 6. Находясь в папке dir_1 через команду cat создать текстовый файл tf_2.txt со следующими строками: the first 1, the second 2, the third 3 | `cat >`  tf_2.txt add text `enter` `ctrl + c` |
+| 6. Находясь в папке dir_1 через команду cat создать текстовый файл tf_2.txt со следующими строками: the first 1, the second 2, the third 3 | `cat >`  tf_2.txt add text `enter` `ctrl+c` |
 | 7. Зайти в папку inner_dir_1 | `cd` inner_dir_1 |
-| 8. Через cat сделать текстовый файл tf_3.txt  c любыми строками | `cat >` tf_3.txt add text `enter` `ctrl + c` |
-| 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”| `cat >>` tf_3.txt the second 2 `enter` `ctrl + c` |
-| 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”| `cat >>` tf_3.txt the sec 2 `enter` `ctrl + c` |
-| 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”| `cat >>` tf_2.txt the sec 3” `enter` `ctrl + c` |
-| 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2” | `cat >>` tf_3.txt the SeCoNd 2 `enter` `ctrl + c` |
-| 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2” | `cat >>` tf_2.txt the seConD 2 `enter` `ctrl + c` |
+| 8. Через cat сделать текстовый файл tf_3.txt  c любыми строками | `cat >` tf_3.txt add text `enter` `ctrl+c` |
+| 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”| `cat >>` tf_3.txt the second 2 `enter` `ctrl+c` |
+| 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”| `cat >>` tf_3.txt the sec 2 `enter` `ctrl+c` |
+| 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”| `cat >>` tf_2.txt the sec 3” `enter` `ctrl+c` |
+| 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2” | `cat >>` tf_3.txt the SeCoNd 2 `enter` `ctrl+c` |
+| 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2” | `cat >>` tf_2.txt the seConD 2 `enter` `ctrl+c` |
 | 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.| `cat >` tf_4.txt add 15 lines `enter` `ctrl + c` |
 | 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.| `cat >` tf_5.txt add 13 lines `enter` `ctrl + c` |
 | 16. Вывести список всех файлов в папке.| `ls -l` или `ls -al` - вместе со скрытыми |
 | 17. Выйти из папки inner_dir_1| `cd ..` - на уровень выше |
 | 18. Вывести содержимое файла tf_3.txt в терминал.| `cat` inner_dir_1/tf_3.txt |
 | 19. Найти путь к файлу tf_4.txt| `find -name` tf_4.txt |
-| 20. Отчистить файл tf_4.txt от содержимого без удаления самого файла.| `>` tf_4.txt `ctrl + c` или `cat /dev/null >` tf_4.txt |
+| 20. Отчистить файл tf_4.txt от содержимого без удаления самого файла.| `>` tf_4.txt `ctrl+c` или `cat /dev/null >` tf_4.txt |
 | 21. Найти путь к файлам у которых есть  “tf” в названии.| `find -name . "*tf*"`|
 | 22. Найти путь к файлам у которых есть  “tf” в названии и буквы в любом регистре.| `find iname "*tf*"` |
 | 23. Найти строки в файлах где есть комбинация букв “sec” в текущей папке| `grep -r sec .`|
